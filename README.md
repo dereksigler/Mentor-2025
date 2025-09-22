@@ -1,36 +1,33 @@
-## NOTICE
+## Mentor Bot for FTC Teams 30308 & 9027
 
-This repository contains the public FTC SDK for the DECODE (2025-2026) competition season.
 
-## Welcome!
-This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
+## Why we use git
+Git is a valuable tool in FTC, and industry as well.  We use git for a minimum of thee reasons:
+   1)  Generational Documentation.   Over the upcoming years there will be times we'll review how past teams tackled a challenge.  It's a valuable resource for future team programmers.  A core principal to our team is to leave the team in better shape than when you joined.
+   2)  Yearly Documentation.  Using git creates a list of all changes throughout the season.  Much like engineering shows iterations of designs over the year, git reminds us off all the software installed, all the testing programs, number of tuning loops and more statistics for the portfolio.    
+   3)  Version control is used in all industries.  Knowing this vital skill allows you to contribute to open source projects and is a differentiator when applying for internships.
 
-## Requirements
-To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
+## Key Words
+We will be using a pared down version control system.  Although there's many more specifics, we'll be focusing on the following:
+Master - This is what we call the current production codebase.  Usually when you start a task you pull the latest master.
+Branches - You start a new branch at the beginning of your task.  It should be as simple as possible, often only a subset of the overall vision.  It also should be something you plan to finish in a short time period.  If you think a task will be longer than a few days, what can you do to break that task down?
+Pull Request - When you complete a branch, you submit a pull request.  This asks someone to peer review, ensure the codebase compiles and merges the branch into the master.
+Pull from / Update from Master - If PRs are completed while you are working a branch, you can pull those changes into your branch.
 
-To program your robot in Blocks or OnBot Java, you do not need Android Studio.
-
-## Getting Started
-If you are new to robotics or new to the *FIRST* Tech Challenge, then you should consider reviewing the [FTC Blocks Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html) to get familiar with how to use the control system:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[FTC Blocks Online Tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html)
-
-Even if you are an advanced Java programmer, it is helpful to start with the [FTC Blocks tutorial](https://ftc-docs.firstinspires.org/programming_resources/blocks/Blocks-Tutorial.html), and then migrate to the [OnBot Java Tool](https://ftc-docs.firstinspires.org/programming_resources/onbot_java/OnBot-Java-Tutorial.html) or to [Android Studio](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html) afterwards.
+## Workflow
+1) Have in mind the task to be done.
+2) Pull Master
+3) Create a new local branch
+4) Program
+5) Commit and push the branch to github
+6) Create pull request
+7) Admin reviews and pass or fails pull request
 
 ## Downloading the Project
-If you are an Android Studio programmer, there are several ways to download this repo.  Note that if you use the Blocks or OnBot Java Tool to program your robot, then you do not need to download this repository.
-
-* If you are a git user, you can clone the most current version of the repository:
-
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone https://github.com/FIRST-Tech-Challenge/FtcRobotController.git</p>
-
-* Or, if you prefer, you can use the "Download Zip" button available through the main repository page.  Downloading the project as a .ZIP file will keep the size of the download manageable.
-
-* You can also download the project folder (as a .zip or .tar.gz archive file) from the Downloads subsection of the [Releases](https://github.com/FIRST-Tech-Challenge/FtcRobotController/releases) page for this repository.
-
-* The Releases page also contains prebuilt APKs.
-
-Once you have downloaded and uncompressed (if needed) your folder, you can use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
+Notes for success:
+Admins are only validating structure, practices and that the code compiles.  Values and performance may be something the programmers look at in subsequent tasks.
+Keep tasks short, no more than a few days.  
+Do pulls from master while working a branch.  This assists in minimalizing merge conflicts.
 
 ## Getting Help
 ### User Documentation and Tutorials
