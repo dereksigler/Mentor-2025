@@ -8,7 +8,7 @@ Git is a valuable tool in FTC, and industry as well.  We use git for a minimum o
    3)  Version control is used in all industries.  Knowing this vital skill allows you to contribute to open source projects and is a differentiator when applying for internships.
 
 ## Key Words
-We will be using a pared down version control system.  Although there's many more specifics, we'll be focusing on the following:
+We will be using a pared down version control system.  Although there's many more specifics, we'll be focusing on the following:</br>
 Master - This is what we call the current production codebase.  Usually when you start a task you pull the latest master.
 Branches - You start a new branch at the beginning of your task.  It should be as simple as possible, often only a subset of the overall vision.  It also should be something you plan to finish in a short time period.  If you think a task will be longer than a few days, what can you do to break that task down?
 Pull Request - When you complete a branch, you submit a pull request.  This asks someone to peer review, ensure the codebase compiles and merges the branch into the master.
