@@ -16,7 +16,7 @@ Pull from / Update from Master - If PRs are completed while you are working a br
 
 ## Workflow
 1) Have in mind the task to be done.
-2) Pull Master
+2) Clone Master
 3) Create a new local branch
 4) Program
 5) Commit and push the branch to github
